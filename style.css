@@ -1,80 +1,77 @@
-*{
-    margin: 0;}
-
-    body{
-     background-color: rgb(37, 248, 213);
-    }
-
-.main{
-    width: 100%;
-    margin-left: 20;
-    background-position: center;
-    background-size: cover;
-    height:100vh;
-    position: relative;
-    font-family: sans-serif
+body{
+    background-color: rgb(182, 143, 161);
+    
 }
 
-.nevbar{
-    display: flex;
-    margin-left:  40%;
-    padding: 15px 0;
-    align-items: center;
-    justify-content: space-between;
-}
 
-ul{
-    margin-top: -4;
-}
 
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 10px;
-}
-
-ul li a{
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    color: darkslategray;
-    margin-bottom: -50px;
-    transition: .4s ease;
-}
-ul li a:hover{
-    color: rgb(253, 7, 7);
-}
-
-img{
-    padding-bottom: 5px;
-    padding-top: 7%;
-    padding-left: 25px;
-}
-.info{
-    margin-left: 20px;
-}
-
-.info h1{
-    font-size: 65px;
-    color: rgb(53, 34, 34);
-}
-
-.info h3{
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 24px;
-
-}
-.info span{
-    color: rgb(253, 7, 7);
-}
 
 .dd{
-    background-color: rgb(204, 153, 153)
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(147, 240, 143);
+    border: none;
+    border-radius: 20px;
+    color: rgb(2, 11, 19);
 }
 
-#up{
-    margin-bottom: 20%;
-    font-size: 30px;
-    background-color: rgb(226, 38, 5);
+.dd :hover{
+    padding: 15px;
+    background: rgb(251, 251, 252);
+    cursor: grab;
+    
+
+} 
+
+#hm{
+    margin-left: 30rem;
+    padding: 10px;
+    margin-right: 30px;
 }
+
+section {
+    margin-left: 1rem;
+}
+
+span{
+    color: rgb(255, 28, 28);
+}
+.large{
+    font-size: 3rem;
+    margin-top: -4px;
+    margin-bottom: 0px;
+}
+.name{
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+h3{
+    line-height: 1px;
+    font-style: calc();
+    color: rgb(11, 247, 51);
+}
+#up{
+     padding: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 196, 252);
+    border: none;
+    border-radius: 20px;
+    color: rgb(2, 11, 19);
+}
+#up :hover{
+    padding: 15px;
+    background: rgb(251, 251, 252);
+}
+img{
+    margin-left: 10rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    animation: alternate;
+    animation-duration: 3s;
+    animation-name: img;
+}
+
