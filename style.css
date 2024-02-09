@@ -1,77 +1,87 @@
-body{
-    background-color: rgb(182, 143, 161);
-    
-}
+    body{
+        background-color: rgba(398, 128, 76, 0.23);
+        
+            background-repeat: no-repeat, repeat;
+            background-image: url(/pics/abb.jpg), url(/pics/bagg.jpg), url(/pics/image\ \(2\).jpg);
+            background-blend-mode: difference;
+            background-size: 100%;
+        
+    }
+    title{
+        color: rgb(252, 3, 3);
+    }
 
 
 
+    .dd{
+        padding: 10px;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: rgb(249, 252, 249);
+        border: none;
+        border-radius: 20px;
+        color: rgb(107, 223, 12);
+    }
 
-.dd{
-    padding: 10px;
-    margin-right: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: rgb(147, 240, 143);
-    border: none;
-    border-radius: 20px;
-    color: rgb(2, 11, 19);
-}
+    .dd :hover{
+        padding: 15px;
+        background: rgb(71, 238, 93);
+        cursor: grab;    
+    } 
 
-.dd :hover{
-    padding: 15px;
-    background: rgb(251, 251, 252);
-    cursor: grab;
-    
+    #hm{
+        margin-left: 30rem;
+        padding: 10px;
+        margin-right: 30px;
+    }
 
-} 
+    section {
+        margin-left: 1rem;
+    }
 
-#hm{
-    margin-left: 30rem;
-    padding: 10px;
-    margin-right: 30px;
-}
-
-section {
-    margin-left: 1rem;
-}
-
-span{
-    color: rgb(255, 28, 28);
-}
-.large{
-    font-size: 3rem;
-    margin-top: -4px;
-    margin-bottom: 0px;
-}
-.name{
-    margin-bottom: 0px;
-    font-size: 2rem;
-}
-h3{
-    line-height: 1px;
-    font-style: calc();
-    color: rgb(11, 247, 51);
-}
-#up{
-     padding: 10px;
-    margin-right: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    background-color: rgb(196, 196, 252);
-    border: none;
-    border-radius: 20px;
-    color: rgb(2, 11, 19);
-}
-#up :hover{
-    padding: 15px;
-    background: rgb(251, 251, 252);
-}
-img{
-    margin-left: 10rem;
-    border-radius: 2rem;
-    margin-bottom: 3rem;
-    animation: alternate;
-    animation-duration: 3s;
-    animation-name: img;
-}
+    span{
+        color: rgb(255, 28, 28);
+    }
+    .large{
+        font-size: 3rem;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .name{
+        margin-bottom: 0px;
+        font-size: 2rem;
+    }
+    h3{
+        line-height: 1px;
+        font-style: calc();
+        color: rgb(252, 253, 252);
+    }
+    #up{
+        padding: 10px;
+        margin-right: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(252, 252, 253);
+        border: none;
+        border-radius: 20px;
+        color: rgb(244, 246, 248);
+    }
+    #up :hover{
+        padding: 15px;
+        background: rgb(251, 251, 252);
+    }
+    img{
+        margin-left: 10rem;
+        border-radius: 2rem;
+        margin-bottom: 3rem;
+        border: width 2px; 
+        border-style: solid;
+        border-color: rgb(255, 3, 3);
+        width: 27rem;
+    }
+    .img:hover {
+        width: 30rem;
+        cursor: grab;
+        }
 
